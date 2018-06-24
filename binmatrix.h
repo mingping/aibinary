@@ -1,6 +1,8 @@
 // a test only
 #include <iostream>
 
+#include <stdexcept> 
+
 class BinMatrix {
     const char* p1;
     const char* p2;
