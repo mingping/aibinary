@@ -2,5 +2,5 @@ language: cpp
 compiler:
 - clang
 script:
-- if [ $TRAVIS_OS_NAME == linux ]; then ./build.sh
-- if [ $TRAVIS_OS_NAME == osx ]; then ./build.sh
+- if [ $TRAVIS_OS_NAME == linux ]; then ./build.sh; fi
+- if [ $TRAVIS_OS_NAME == osx ]; then ./build.sh; fi
