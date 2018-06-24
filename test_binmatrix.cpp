@@ -8,6 +8,7 @@ struct constN
 
 int main(int argc, char *argv[])
 {
+    
   constexpr BinMatrix bm("0000",
                          "1100"
                          "1110"

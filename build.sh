@@ -1,4 +1,4 @@
 #!/bin/bash
 
-clang++ test.cpp -o ztest
+clang++ -std=c++14 test_binmatrix.cpp -o ztest
 ./ztest
