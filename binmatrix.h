@@ -1,3 +1,4 @@
+// a test only
 #include <iostream>
 
 class BinMatrix {
